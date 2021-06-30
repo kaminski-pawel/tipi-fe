@@ -1,13 +1,25 @@
 const dotenv = require("dotenv");
-const path = require("path");
 const webpack = require("webpack");
 
 const env = dotenv.config().parsed;
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: {
+    TransferPricing: "./src/pages/TransferPricing.js",
+    FinStatements: "./src/pages/FinStatements.js",
+    Lease: "./src/pages/Lease.js",
+    KaminskiPawel: "./src/pages/KaminskiPawel.js",
+    LandingPage: "./src/pages/LandingPage.js",
+  },
+  // optimization: {
+  //   splitChunks: {
+  //     chunks: "all",
+  //     minSize: 0,
+  //   },
+  // },
   output: {
-    filename: "init-bundle.js",
+    // filename: "[name].[chunkhash].bundle.js",
+    filename: "[name].bundle.js",
     path: env.REACT_APP_BACKEND_STATIC_DIR,
   },
   module: {
