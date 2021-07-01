@@ -1,12 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import LandingPage from "../components/landing/LandingPage.jsx";
+
+import "../i18n";
 
 ReactDOM.render(
   <React.StrictMode>
     <React.Suspense fallback={<div>Proszę chwilę zaczekać...</div>}>
-      <p>LandingPage</p>
-      <p>{document.getElementById("backend-options").textContent}</p>
-      {/* <p>{typeof JSON.parse(document.getElementById("backend-options").textContent)}</p> */}
+      <LandingPage
+        lang={
+          JSON.parse(document.getElementById("backend-options").textContent)
+            .lang
+        }
+      />
     </React.Suspense>
   </React.StrictMode>,
   document.getElementById("react-app-root")
