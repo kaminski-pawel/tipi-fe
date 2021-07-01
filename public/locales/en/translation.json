@@ -1,0 +1,14 @@
+{
+    "tp": {
+        "test": "in english"
+    },
+    "portfolio": {
+        "aboutMe": {
+            "title": "About me",
+            "desc": "Mam na imię Paweł Kamiński i od 2016 roku programuję w językach Python i Javascript. W latach 2011-2018 pracowałem jako prawnik ze specjalizacją prawa podatkowego, ale ponieważ byłem bardziej zainteresowany technicznymi aspektami swojej pracy (m.in. budowaniem kalkulatorów podatkowych, bazami danych i SQL w MS Access, używaniem VBA w MS Access i MS Excel) w sposób naturalny z czasem skupiałem się coraz bardziej na aspektach technicznych. Od 2018 r. prowadzę jednoosobową działalność gospodarczą, w ramach której świadczę usługi oparte o rozwiązania napisane w językach Python oraz Javascript.",
+            "name": "Name",
+            "age": "Age",
+            "address": "Address"
+        }
+    }
+}
