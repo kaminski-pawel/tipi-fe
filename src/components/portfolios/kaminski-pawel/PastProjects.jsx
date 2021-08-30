@@ -11,7 +11,7 @@ https://bl.ocks.org/SpaceActuary/d6b5ca8e5fb17842d652d0de21e88a05
 const PastProjects = () => {
   return (
     <>
-      <h3 id="projects">Ważniejsze projekty 2018-2021</h3>
+      <h3 id="projekty">Ważniejsze projekty 2018-2021</h3>
       <h4>mojeanalizy.pl</h4>
       <p>
         Zestaw narzędzi do analizy danych finansowych polskich przedsiębiorstw.

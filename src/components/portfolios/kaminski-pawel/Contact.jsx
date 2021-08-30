@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <h1 id="contact">Zapraszam do kontaktu</h1>
+      <h1 id="kontakt">Zapraszam do kontaktu</h1>
       <h2>Dane kontaktowe</h2>
       <p>
         {/* <span class="fa fa-envelope"></span> */}

@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import FinStatements from "../components/finstatements/FinStatements.jsx";
+import FinancialData from "../components/FinancialData/FinancialData.jsx";
 
 import "../i18n";
 
 ReactDOM.render(
   <React.StrictMode>
     <React.Suspense fallback={<div>Proszę chwilę zaczekać...</div>}>
-      <FinStatements
+      <FinancialData
         lang={
           JSON.parse(document.getElementById("backend-options").textContent)
             .lang

@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Lease from "../components/lease/Lease.jsx";
+import IndustryAnalysis from "../components/IndustryAnalysis/IndustryAnalysis.jsx";
 
 import "../i18n";
 
 ReactDOM.render(
   <React.StrictMode>
     <React.Suspense fallback={<div>Proszę chwilę zaczekać...</div>}>
-      <Lease
+      <IndustryAnalysis
         lang={
           JSON.parse(document.getElementById("backend-options").textContent)
             .lang

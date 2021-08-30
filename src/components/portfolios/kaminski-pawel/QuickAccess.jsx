@@ -3,7 +3,7 @@ import React from "react";
 const QuickAccess = () => {
   return (
     <p>
-      <a href="#projects">Projekty</a> | <a href="#contact">Kontakt</a>
+      <a href="#projekty">Projekty</a> | <a href="#kontakt">Kontakt</a>
     </p>
   );
 };

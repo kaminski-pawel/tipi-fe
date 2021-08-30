@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import LandingPage from "../components/LandingPage/LandingPage.jsx";
+import ContentMarketing from "../components/ContentMarketing/ContentMarketing.jsx";
 
 import "../i18n";
 
 ReactDOM.render(
   <React.StrictMode>
     <React.Suspense fallback={<div>Proszę chwilę zaczekać...</div>}>
-      <LandingPage
+      <ContentMarketing
         lang={
           JSON.parse(document.getElementById("backend-options").textContent)
             .lang

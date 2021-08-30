@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import LandingPage from "../components/LandingPage/LandingPage.jsx";
+import SoftwareHouse from "../components/soft/SoftwareHouse.jsx";
 
 import "../i18n";
 
 ReactDOM.render(
   <React.StrictMode>
     <React.Suspense fallback={<div>Proszę chwilę zaczekać...</div>}>
-      <LandingPage
+      <SoftwareHouse
         lang={
           JSON.parse(document.getElementById("backend-options").textContent)
             .lang

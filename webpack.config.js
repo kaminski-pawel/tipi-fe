@@ -5,11 +5,12 @@ const env = dotenv.config().parsed;
 
 module.exports = {
   entry: {
-    TransferPricing: "./src/pages/TransferPricing.js",
-    FinStatements: "./src/pages/FinStatements.js",
-    Lease: "./src/pages/Lease.js",
-    KaminskiPawel: "./src/pages/KaminskiPawel.js",
     LandingPage: "./src/pages/LandingPage.js",
+    FinancialData: "./src/pages/FinancialData.js",
+    SoftwareHouse: "./src/pages/SoftwareHouse.js",
+    IndustryAnalysis: "./src/pages/IndustryAnalysis.js",
+    ContentMarketing: "./src/pages/ContentMarketing.js",
+    KaminskiPawel: "./src/pages/KaminskiPawel.js",
   },
   // optimization: {
   //   splitChunks: {
