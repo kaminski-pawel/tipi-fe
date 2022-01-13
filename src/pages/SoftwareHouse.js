@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import SoftwareHouse from "../components/soft/SoftwareHouse.jsx";
+import SoftwareHouse from "../components/soft/index.jsx";
 
 import "../i18n";
 
