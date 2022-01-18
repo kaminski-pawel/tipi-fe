@@ -8,6 +8,7 @@ import Footer from "./Footer.jsx";
 import "./Soft.css";
 import "../../styles.css";
 
+
 export default function SoftwareHouse() {
   return (
     <>

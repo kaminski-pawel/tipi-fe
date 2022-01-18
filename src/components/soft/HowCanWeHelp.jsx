@@ -23,7 +23,7 @@ export default function HowCanWeHelp() {
       className="howcanwehelp d-flex align-items-center"
     >
       <div className="container">
-        <h1>W czym możemy Ci pomóc</h1>
+        <h2>W czym możemy Ci pomóc</h2>
 
         <div className="row">
           <HelpItem

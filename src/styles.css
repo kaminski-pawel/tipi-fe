@@ -1,3 +1,6 @@
+@import url("https://bootstrapmade.com/demo/templates/FlexStart/assets/vendor/bootstrap/css/bootstrap.min.css");
+@import url(" ");
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -29,6 +32,12 @@ h6 {
   font-family: "montserrat", sans-serif;
 }
 
+h2 {
+font-size: 30px;
+line-height: 1.5;
+color: #000;
+}
+
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -41,7 +50,7 @@ section {
   text-align: center;
   padding-bottom: 50px;
 }
-.section-header h2 {
+.section-header h3 {
   font-size: 13px;
   letter-spacing: 1px;
   font-weight: 700;

@@ -19,10 +19,10 @@ export default function OurSpecialities() {
     <section id="recent-blog-posts" class="recent-blog-posts">
       <div class="container" data-aos="fade-up">
         <header class="section-header">
-          <h2>Specjalizacje</h2>
+          <h3>Specjalizacje</h3>
           <p>Nasze specjalizacje</p>
         </header>
-        <div class="row">
+        <div class="row justify-content-center text-center">
           <Speciality
             img={{ src: "https://picsum.photos/id/1/200/300", alt: "Przemysł" }}
             title="Przemysł"
@@ -45,7 +45,7 @@ export default function OurSpecialities() {
             text=""
           ></Speciality>
         </div>
-        <div class="row">
+        <div class="row justify-content-center text-center">
           <Speciality
             img={{
               src: "https://picsum.photos/id/1/200/300",
