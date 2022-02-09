@@ -5,10 +5,10 @@ export default function Hero(props) {
   return (
     <>
       <section id="hero" className="hero d-flex align-items-center">
-        <div className="container">
+        <div className="container w-75 mx-auto">
           <div className="row">
             <div className="col-lg-6 d-flex flex-column justify-content-center">
-              <h1 data-aos="fade-up">Oprogramowanie na zamówienie</h1>
+              <h1 data-aos="fade-up"><span className="blue-span">Oprogramowanie</span> na zamówienie</h1>
               <h2 data-aos="fade-up" data-aos-delay="400">
                 Specjalizujemy się w projektach heavy on data and analytics
               </h2>
@@ -30,7 +30,7 @@ export default function Hero(props) {
               data-aos="zoom-out"
               data-aos-delay="200"
             >
-              <img src={heroImg} className="img-fluid" alt=""></img>
+              <img src={heroImg} className="img-fluid hero-img" alt=""></img>
             </div>
           </div>
         </div>

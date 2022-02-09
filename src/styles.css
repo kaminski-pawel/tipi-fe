@@ -10,7 +10,8 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  font-size: 14px;
+  color: #64748b;
 }
 
 a {
@@ -33,10 +34,16 @@ h6 {
 }
 
 h2 {
-font-size: 30px;
+font-size: 36px;
 line-height: 1.5;
 color: #000;
+font-weight:400;
 }
+
+.blue-span {
+    color: #0581d9;
+    font-weight: 600;
+    }
 
 /*--------------------------------------------------------------
 # Sections
@@ -71,4 +78,13 @@ section {
     font-size: 28px;
     line-height: 32px;
   }
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.footer {
+  padding: 64px 0px;
+  border-top: 1px solid rgb(236, 239, 242);
 }

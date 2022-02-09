@@ -36,7 +36,7 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(png|jpe?g|svg|gif)$/i,
         use: [{ loader: "file-loader" }],
       },
     ],
@@ -46,4 +46,9 @@ module.exports = {
       "process.env": dotenv.parsed,
     }),
   ],
+  devServer: {
+    headers: {
+      'Cache-Control': 'no-store'
+    }
+  }
 };
