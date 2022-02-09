@@ -91,7 +91,6 @@
   }
 }
 
-
 /*--------------------------------------------------------------
 # How we can help
 --------------------------------------------------------------*/
@@ -121,19 +120,16 @@
   transform: scale(1);
 }
 
-
-
 /*--------------------------------------------------------------
 # Tech Stack
 --------------------------------------------------------------*/
 
-
 .grey-box {
-    padding: 50px 0;
-    background: #f8fafc;
-    border-radius: 1rem;
-    color: #596776;
-    box-shadow: 0px 0 5px rgb(1 41 112 / 8%);
+  padding: 50px 0;
+  background: #f8fafc;
+  border-radius: 1rem;
+  color: #596776;
+  box-shadow: 0px 0 5px rgb(1 41 112 / 8%);
 }
 
 .tech-name {
@@ -150,11 +146,11 @@
 }
 
 @media (min-width: 768px) {
-.col-md-2 {
+  .col-md-2 {
     -ms-flex: 0 0 20% !important;
     flex: 0 0 20% !important;
     max-width: 20% !important;
-}
+  }
 }
 
 /*--------------------------------------------------------------
@@ -184,7 +180,6 @@
 .recent-blog-posts .post-box .post-img img {
   transition: 0.5s;
   padding-top: 30px;
-
 }
 .recent-blog-posts .post-box .post-date {
   font-size: 14px;
