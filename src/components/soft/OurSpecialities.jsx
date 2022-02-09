@@ -2,13 +2,13 @@ import React from "react";
 
 function Speciality({ img, title, text }) {
   return (
-    <div class="col-lg-4">
-      <div class="post-box">
-        <div class="post-img">
-          <img src={img.src} class="img-fluid" alt={img.alt}></img>
+    <div className="col-lg-4">
+      <div className="post-box">
+        <div className="post-img">
+          <img src={img.src} className="img-fluid" alt={img.alt}></img>
         </div>
-        <h3 class="post-title">{title}</h3>
-        <span class="post-date">{text}</span>
+        <h3 className="post-title">{title}</h3>
+        <span className="post-date">{text}</span>
       </div>
     </div>
   );
@@ -16,13 +16,13 @@ function Speciality({ img, title, text }) {
 
 export default function OurSpecialities() {
   return (
-    <section id="recent-blog-posts" class="recent-blog-posts">
-      <div class="container" data-aos="fade-up">
-        <header class="section-header">
+    <section id="recent-blog-posts" className="recent-blog-posts">
+      <div className="container" data-aos="fade-up">
+        <header className="section-header">
           <h3>Specjalizacje</h3>
           <p>Nasze specjalizacje</p>
         </header>
-        <div class="row justify-content-center text-center">
+        <div className="row justify-content-center text-center">
           <Speciality
             img={{ src: "https://picsum.photos/id/1/200/300", alt: "Przemysł" }}
             title="Przemysł"
@@ -45,7 +45,7 @@ export default function OurSpecialities() {
             text=""
           ></Speciality>
         </div>
-        <div class="row justify-content-center text-center">
+        <div className="row justify-content-center text-center">
           <Speciality
             img={{
               src: "https://picsum.photos/id/1/200/300",

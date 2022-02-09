@@ -11,12 +11,13 @@ function HelpItem({ img, title, text }) {
       data-aos-delay="200"
     >
       <div className="box">
-        <img src={img.src}
-             alt={img.alt}
-             // width={img.width}
-             // height={img.height}
-             className="img-fluid"
-             />
+        <img
+          src={img.src}
+          alt={img.alt}
+          // width={img.width}
+          // height={img.height}
+          className="img-fluid"
+        />
         <h3>{title}</h3>
         <p>{text}</p>
       </div>
@@ -31,8 +32,10 @@ export default function HowCanWeHelp() {
       className="howcanwehelp d-flex align-items-center"
     >
       <div className="container">
-        <header class="section-header">
-          <h2>W czym możemy Ci <span className="blue-span">pomóc</span></h2>
+        <header className="section-header">
+          <h2>
+            W czym możemy Ci <span className="blue-span">pomóc</span>
+          </h2>
         </header>
 
         <div className="row">
