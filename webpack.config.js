@@ -6,8 +6,11 @@ const env = dotenv.config().parsed;
 module.exports = {
   entry: {
     LandingPage: "./src/pages/LandingPage.js",
-    FinancialData: "./src/pages/FinancialData.js",
     SoftwareHouse: "./src/pages/SoftwareHouse.js",
+    TransferPricing: "./src/pages/TransferPricing.js",
+    DataScraping: "./src/pages/DataScraping.js",
+
+    FinancialData: "./src/pages/FinancialData.js",
     IndustryAnalysis: "./src/pages/IndustryAnalysis.js",
     ContentMarketing: "./src/pages/ContentMarketing.js",
     KaminskiPawel: "./src/pages/KaminskiPawel.js",
@@ -48,7 +51,7 @@ module.exports = {
   ],
   devServer: {
     headers: {
-      'Cache-Control': 'no-store'
-    }
-  }
+      "Cache-Control": "no-store",
+    },
+  },
 };

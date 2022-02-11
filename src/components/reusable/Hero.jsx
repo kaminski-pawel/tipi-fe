@@ -9,10 +9,12 @@ export default function Hero(props) {
           <div className="row">
             <div className="col-lg-6 d-flex flex-column justify-content-center">
               <h1 data-aos="fade-up">
-                <span className="blue-span">Oprogramowanie</span> na zamówienie
+                {props.title}
+                {/* <span className="blue-span">Oprogramowanie</span> na zamówienie */}
               </h1>
               <h2 data-aos="fade-up" data-aos-delay="400">
-                Specjalizujemy się w projektach heavy on data and analytics
+                {props.subtitle}
+                {/* Specjalizujemy się w projektach heavy on data and analytics */}
               </h2>
               <div data-aos="fade-up" data-aos-delay="600">
                 <div className="text-center text-lg-start">
