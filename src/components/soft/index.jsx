@@ -5,7 +5,7 @@ import HowCanWeHelp from "./HowCanWeHelp.jsx";
 import TechStack from "./TechStack.jsx";
 import OurSpecialities from "./OurSpecialities.jsx";
 import Footer from "../reusable/Footer.jsx";
-import "../reusable/Soft.css";
+import "../reusable/styles.css";
 import "../../styles.css";
 
 function HeroTitle() {
