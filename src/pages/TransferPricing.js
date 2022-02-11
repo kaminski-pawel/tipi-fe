@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import TransferPricing from "../components/tp/TransferPricing.jsx";
+import TransferPricing from "../components/transfer-pricing/index.jsx";
 
 import "../i18n";
 

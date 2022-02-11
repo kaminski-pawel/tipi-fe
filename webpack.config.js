@@ -7,6 +7,7 @@ module.exports = {
   entry: {
     LandingPage: "./src/pages/LandingPage.js",
     SoftwareHouse: "./src/pages/SoftwareHouse.js",
+    TransferPricing: "./src/pages/TransferPricing.js",
     DataScraping: "./src/pages/DataScraping.js",
 
     FinancialData: "./src/pages/FinancialData.js",
@@ -50,7 +51,7 @@ module.exports = {
   ],
   devServer: {
     headers: {
-      'Cache-Control': 'no-store'
-    }
-  }
+      "Cache-Control": "no-store",
+    },
+  },
 };
