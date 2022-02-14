@@ -27,9 +27,11 @@ function WhatItIsContent() {
 
 export default function WhatItIs() {
   return (
-    <TextAndImg
-      content={<WhatItIsContent />}
-      img={{ src: "", alt: "" }}
-    ></TextAndImg>
+    <section id="what-it-is" className="what-it-is">
+      <TextAndImg
+        content={<WhatItIsContent />}
+        img={{ src: "", alt: "" }}
+      ></TextAndImg>
+    </section>
   );
 }

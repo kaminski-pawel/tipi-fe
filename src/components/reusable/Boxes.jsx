@@ -17,28 +17,24 @@ function BoxItem({ img, title, text }) {
 }
 export default function Boxes(props) {
   return (
-    <section
-      id="how-can-we-help"
-      className="reusable-boxes d-flex align-items-center"
-    >
-      <div className="container">
-        <header className="section-header">
-          <h2>{props.title}</h2>
-        </header>
+    <div className="container" rcomponent="reusable/Boxes.jsx">
+      <header className="section-header">
+        <h2>{props.title}</h2>
+      </header>
 
-        <div className="row">
-          {props.boxes.map((item, idx) => {
-            return (
-              <BoxItem
-                key={idx}
-                img={item.img}
-                title={item.title}
-                text={item.text}
-              ></BoxItem>
-            );
-          })}
-        </div>
+      <div className="row">
+        {props.boxes.map((item, idx) => {
+          return (
+            <BoxItem
+              key={idx}
+              img={item.img}
+              title={item.title}
+              text={item.text}
+            ></BoxItem>
+          );
+        })}
       </div>
-    </section>
+    </div>
   );
 }
+E;
