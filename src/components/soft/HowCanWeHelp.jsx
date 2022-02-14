@@ -41,5 +41,12 @@ function HowCanWeHelpTitle() {
 }
 
 export default function HowCanWeHelp() {
-  return <Boxes title={<HowCanWeHelpTitle />} boxes={boxesData}></Boxes>;
+  return (
+    <section
+      id="how-we-can-help"
+      className="reusable-boxes d-flex align-items-center"
+    >
+      <Boxes title={<HowCanWeHelpTitle />} boxes={boxesData}></Boxes>
+    </section>
+  );
 }
