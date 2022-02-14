@@ -20,7 +20,7 @@ function Point(props) {
 
 export default function PointsNextToImg(props) {
   return (
-    <>
+    <div className="container" rcomponent="reusable/PointsNextToImg.jsx">
       <div
         className="row feature-icons aos-init aos-animate"
         data-aos="fade-up"
@@ -51,6 +51,6 @@ export default function PointsNextToImg(props) {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

@@ -1,6 +1,5 @@
 import React from "react";
 
-import Datapoints from "../reusable/Datapoints.jsx";
 import PointsNextToImg from "../reusable/PointsNextToImg.jsx";
 
 const points = [
