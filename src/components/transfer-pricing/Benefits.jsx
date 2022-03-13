@@ -1,9 +1,9 @@
 import React from "react";
 
 import Boxes from "../reusable/Boxes.jsx";
-import ico1 from "../../../public/images/ico-1.png";
-import ico2 from "../../../public/images/ico-2.png";
-import ico3 from "../../../public/images/ico-3.png";
+import ico1 from "../../../public/images/icons/todo-line.svg";
+import ico2 from "../../../public/images/icons/time-line.svg";
+import ico3 from "../../../public/images/icons/hand-coin-line.svg";
 
 const boxesData = [
   {

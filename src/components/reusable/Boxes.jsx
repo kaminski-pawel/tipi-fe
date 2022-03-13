@@ -3,7 +3,7 @@ import React from "react";
 function BoxItem({ img, title, text }) {
   return (
     <div
-      className="col-lg-4 aos-init aos-animate"
+      className="col-lg-4 col-md-6 aos-init aos-animate"
       data-aos="fade-up"
       data-aos-delay="200"
     >
@@ -36,5 +36,4 @@ export default function Boxes(props) {
       </div>
     </div>
   );
-}
-E;
+};

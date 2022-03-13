@@ -7,6 +7,7 @@ import OurSpecialities from "./OurSpecialities.jsx";
 import Footer from "../reusable/Footer.jsx";
 import "../reusable/styles.css";
 import "../../styles.css";
+import heroImg from "../../../public/images/icons/1F5A5.svg";
 
 function HeroTitle() {
   return (
@@ -22,6 +23,7 @@ export default function SoftwareHouse() {
       <Hero
         title={<HeroTitle />}
         subtitle="Specjalizujemy się w projektach heavy on data and analytics"
+        heroImg={heroImg}
       ></Hero>
       <HowCanWeHelp></HowCanWeHelp>
       <TechStack></TechStack>

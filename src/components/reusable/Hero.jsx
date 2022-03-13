@@ -1,5 +1,4 @@
 import React from "react";
-import heroImg from "../../../public/images/hero-img.png";
 
 export default function Hero(props) {
   return (
@@ -7,7 +6,9 @@ export default function Hero(props) {
       <section id="hero" className="hero d-flex align-items-center">
         <div className="container w-75 mx-auto">
           <div className="row">
-            <div className="col-lg-6 d-flex flex-column justify-content-center">
+
+            <div className="col-lg-6 d-flex flex-column justify-content-center one">
+
               <h1 data-aos="fade-up">
                 {props.title}
                 {/* <span className="blue-span">Oprogramowanie</span> na zamówienie */}
@@ -28,28 +29,35 @@ export default function Hero(props) {
                   </a>
                 </div>
               </div>
+
             </div>
             <div
-              className="col-lg-6 hero-img"
+              className="col-lg-6 hero-img two"
               data-aos="zoom-out"
               data-aos-delay="200"
             >
-              <img src={heroImg} className="img-fluid hero-img" alt=""></img>
+            <div className="blob-box">
+              <div className="blob">
+                <div className="gooey">
+                </div>
+              </div>
             </div>
+
+              <div className="stack-top">
+                <img src={props.heroImg} className="img-fluid hero-img" alt=""></img>
+              </div>
+            </div>
+
+
           </div>
         </div>
-        <div className="hero-curve">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              className="hello-curve-fill"
-            ></path>
-          </svg>
-        </div>
+
+
+
+
+
+
+
       </section>
     </>
   );

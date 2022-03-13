@@ -7,6 +7,7 @@ import Benefits from "./Benefits.jsx";
 import Footer from "../reusable/Footer.jsx";
 import "../reusable/styles.css";
 import "../../styles.css";
+import heroImg from "../../../public/images/icons/E049.svg";
 
 function HeroTitle() {
   return (
@@ -22,6 +23,7 @@ export default function SoftwareHouse() {
       <Hero
         title={<HeroTitle />}
         subtitle="Przygotujemy za Ciebie dokumentacje cen transferowych"
+        heroImg={heroImg}
       ></Hero>
       <Experience></Experience>
       <HowCanWeHelp></HowCanWeHelp>
