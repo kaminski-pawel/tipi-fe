@@ -573,3 +573,7 @@ li {
 .footer .menu-privacy li:not(:last-child) {
     margin-right: 30px;
 }
+
+.socials p {
+  display: block;
+}
