@@ -24,8 +24,8 @@ export default function Hero(props) {
                     className="btn-get-started scrollto d-inline-flex align-items-center
                                justify-content-center align-self-center"
                   >
-                    <span>Dowiedz się więcej</span>
-                    <i className="bi bi-arrow-down"></i>
+                    <span>Skontaktuj się</span>
+                    <i className="ri-send-plane-line"></i>
                   </a>
                 </div>
               </div>

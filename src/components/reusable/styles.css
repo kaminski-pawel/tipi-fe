@@ -80,10 +80,10 @@
   }
   .hero .hero-img {
     text-align: center;
-    margin-top: 80px;
+    /* margin-top: 80px; */
   }
   .hero .hero-img img {
-    width: 80%;
+    width: 65%;
   }
 }
 @media (max-width: 768px) {
@@ -488,7 +488,7 @@ left: 0; */
 --------------------------------------------------------------*/
 
 .footer a {
-  color: #fff;
+  color: #596776;
   transition: all 0.2s, transform 0.2s ease-in-out;
 }
 
@@ -547,6 +547,8 @@ left: 0; */
   display: flex;
   -ms-flex-align: center;
   align-items: center;
+  color: #596776;
+  padding-left: 0 !important;
 }
 
 li {
@@ -571,4 +573,25 @@ li {
 
 .socials p {
   display: block;
+}
+
+.footerSocialContainer {
+    display: block;
+    height: 60px;
+    float: right;
+    text-align: right;
+    margin: 0;
+}
+
+
+.footerBottomContainer {
+    text-align: left;
+    float: left;
+}
+
+.footerBottom {
+  margin-top: 40px !important;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  height: 40px;
 }

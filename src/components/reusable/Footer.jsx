@@ -8,59 +8,78 @@ export default function Footer() {
   return (
     <>
       <footer id="footer" className="footer">
+
+
+      <div className="container">
+            <div className="footer-newsletter w-75 mx-auto">
+              <div className="row justify-content-center">
+                <div className="col-lg-12 text-center">
+                  <h4>Zapraszamy do kontaktu</h4>
+                  <a className="btn-btn">office@tipi.software</a>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+
         {/* call to action */}
         <div className="container">
           <div className="row">
-            <div className="copyright color-muted">
-              <div className="col-lg-4 d-inline-block">
-                <img src={tipiLogo} className="img-fluid" alt=""></img>
-              </div>
 
-              <div className="col-lg-4 d-inline-block">
-                <ul className="socials footer-socials">
-                  <li>
-                    <img
-                      src={imgYt}
-                      className="img-fluid"
-                      alt=""
-                      width="20px"
-                    ></img>
-                  </li>
-                  <li>
-                    <img
-                      src={imgTt}
-                      className="img-fluid"
-                      alt=""
-                      width="20px"
-                    ></img>
-                  </li>
-                </ul>
-              </div>
+<div class="footerBottom"><div class="footerBottomSection group"><div class="footerSocialContainer">
 
-              <div className="col-lg-4 d-inline-block">
-                <a
-                  href="mailto:inquiries@applover.com"
-                  className="button button--white button--outlined button--small font-weight-bold"
-                >
-                  kontakt: office@tipi.software{" "}
-                </a>
-              </div>
-            </div>
+<ul className="socials footer-socials">
+<li>
+<a
+  href="mailto:office@tipi.software"
+  className=""
+>
+  kontakt: office@tipi.software{" "}
+</a>
+</li>
+
+  <li>
+    <img
+      src={imgYt}
+      className="img-fluid"
+      alt=""
+      width="20px"
+    ></img>
+  </li>
+  <li>
+    <img
+      src={imgTt}
+      className="img-fluid"
+      alt=""
+      width="20px"
+    ></img>
+  </li>
+</ul>
+
+</div><div class="footerBottomContainer">
+<ul className="menu-privacy">
+  <li>
+    {" "}
+    &copy; {year}{" "}
+    <strong>
+      <span>TIPI Software</span>
+    </strong>
+  </li>
+  <li>Polityka prywatności</li>
+</ul>
+</div></div></div>
+
+
+
           </div>
-          <div className="row">
-            <div className="col-lg-12 d-inline-block justify-content-center">
-              <ul className="menu-privacy">
-                <li>
-                  {" "}
-                  &copy; {year}{" "}
-                  <strong>
-                    <span>TIPI Software</span>
-                  </strong>
-                </li>
-                <li>Polityka prywatności</li>
-              </ul>
-            </div>
-          </div>
+
+
+
         </div>
       </footer>
     </>
